@@ -11,24 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
     <title>Submit Recommendations</title>
     <!-- Add a favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
 </head>
 <body>
   <!-- Implement a skip to main! -->
-        <form action="https://formspree.io/f/xgvaelel" method="post"> 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-<div class="radio">
+  <a href="#main" class="skip-to-content">Skip to main content</a>
+    <main>
+      <form action="https://formspree.io/f/xgvaelel" method="post"> 
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <div class="radio">
         <label>Area of Submission:</label><br>
         <!-- How can the label and button line up and be easily navigatable? -->
-  <input type="radio" id="travel" name="interest" value="travel" required>
-  <label for="travel">Travel</label><br>
-  <input type="radio" id="recipe" name="interest" value="recipe" tabindex="0">
-  <label for="recipe">Recipe</label><br>
-  <input type="radio" id="pets" name="interest" value="pets">
-  <label for="pets">Pets</label><br><br>
-</div>
-
-
+        <input type="radio" id="travel" name="interest" value="travel" required>
+        <label for="travel">Travel</label><br>
+        <input type="radio" id="recipe" name="interest" value="recipe" tabindex="0">
+        <label for="recipe">Recipe</label><br>
+        <input type="radio" id="pets" name="interest" value="pets">
+        <label for="pets">Pets</label><br><br>
+      </div>
         <label for="message">Message:</label>
         <textarea id="message" name="message"></textarea><br><br>
 
@@ -39,5 +45,6 @@
 
         <button type="reset">Reset</button>
       </form>
+    </main>
 </body>
 </html>

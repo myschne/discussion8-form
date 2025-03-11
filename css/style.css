@@ -60,3 +60,18 @@
   label{
     font-family: "Big Shoulders", sans-serif;
   }
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+}
+  
+.skip-to-content:focus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  color: black;
+  padding: 10px;
+  z-index: 1000;
+}
+
