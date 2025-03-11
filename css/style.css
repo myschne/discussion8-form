@@ -27,7 +27,7 @@
     font-size: 18px;
     font-weight: bold;
     background: #CFC096;
-    color: #9B9A6D;
+    color: #000000;
   }
 
   #message {
@@ -46,7 +46,7 @@
   input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #1a6e1d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,5 +54,9 @@
   }
 
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #255928;
+  }
+
+  label{
+    font-family: "Big Shoulders", sans-serif;
   }
